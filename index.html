@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturalys Loja Virtual</title>
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <a id="logo" href=""><img src="assets/LOGO DA MÃO - Copia.png" alt="" class="logo_imagem"></a>
+        <nav id="nav">
+            <a href="https://wa.me/5584998561010&text=Olá" class="whatsapp">
+            <lord-icon
+                src="https://cdn.lordicon.com/hpivxauj.json"
+                trigger="click"
+                colors="primary:#000000"
+                state="hover"
+                style="width:30px;height:30px">
+            </lord-icon>
+            </a>
+            <a href="#">
+                <lord-icon
+                src="https://cdn.lordicon.com/osuxyevn.json"
+                trigger="click"
+                colors="primary:#000000"
+                style="width:30px;height:30px">
+            </lord-icon>
+            </a>
+            
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li class="menu__categoria">Categorias</li>
+            <li class="menu__item"><a href="#" class="menu__link">Emagrecimento</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Suplementos</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Vitaminas</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Minerais</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Energia</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Calmantes</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Oleos Essenciais</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Cabelos e Unhas</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner" id="inicio">
+            <h2 class="banner__subtitulo">Já sabe por onde Começar?</h2>
+            <p class="banner__texto">Encontre em nossa loja Virtual o que precisa para seu dia-a-dia</p>
+            <a href="#" class="banner__link">Produtos Para o Dia-a-Dia</a>
+        </section>
+
+        <section class="topicos">
+            <h2 class="carrosel__subtitulo">Novidades</h2>
+                <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/bioklein-img-curcuma-mix-30ml-gotas-01.jpg" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">Curcuma + colageno tipo II</h2>
+                    <a class="swiper-slide__btn">Saiba Mais</a>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/6hucokrin7x2kchahvhc6hgtinjdn9m2nvop_620x620+fill_ffffff.webp" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">OLEO DE ABACATE 30ML</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/bioklein-img-curcuma-mix-30ml-gotas-01.jpg" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">Curcuma + colageno tipo II</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/bioklein-img-curcuma-mix-30ml-gotas-01.jpg" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">Curcuma + colageno tipo II</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                </div>
+                
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+            </div>
+
+            <div class="card">
+                <div class="primeira__parte">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você tambem se interesse por...</h3>
+                        <h2 class="descricao__titulo-card">Colageno Hidrolisado</h2>
+                        <p class="descricao__texto">Produz de fibras colágenas, estimular o preenchimento celular e suavizar os quadros de flacidez e envelhecimento precoce.</p>
+                    </div>
+
+                    <img src="img/COLAGENO_HIDROLISADO_VERISOL_CAPS_SITE-1024x1024.png" alt="" >
+                </div>
+
+                <div class="segunda__parte">
+                    <ul class="valor">
+                        <li class="valor__item"><p class="valor__preco"><strong>De:</strong><small>R$:</small>97</p></li>
+                        <li class="valor__item"><p class="valor__preco__promo"><strong>Por Apenas: </strong><small>R$:</small>57</p></li>
+                    </ul>
+
+                    <a href="#">Aproveitar Oferta</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="topicos">
+            <h2 class="carrosel__subtitulo">Vitaminas</h2>
+                <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/bioklein-img-curcuma-mix-30ml-gotas-01.jpg" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">Curcuma + colageno tipo II</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/6hucokrin7x2kchahvhc6hgtinjdn9m2nvop_620x620+fill_ffffff.webp" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">OLEO DE ABACATE 30ML</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/bioklein-img-curcuma-mix-30ml-gotas-01.jpg" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">Curcuma + colageno tipo II</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/bioklein-img-curcuma-mix-30ml-gotas-01.jpg" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">Curcuma + colageno tipo II</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                </div>
+                
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+            </div>
+
+        </section>
+
+        <section class="topicos">
+            <h2 class="carrosel__subtitulo">Suplementos</h2>
+                <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/bioklein-img-curcuma-mix-30ml-gotas-01.jpg" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">Curcuma + colageno tipo II</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/6hucokrin7x2kchahvhc6hgtinjdn9m2nvop_620x620+fill_ffffff.webp" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">OLEO DE ABACATE 30ML</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/bioklein-img-curcuma-mix-30ml-gotas-01.jpg" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">Curcuma + colageno tipo II</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/bioklein-img-curcuma-mix-30ml-gotas-01.jpg" alt="" class="swiper-slide__imagem">
+                    <h2 class="swiper-slide__titulo">Curcuma + colageno tipo II</h2>
+                    <button class="swiper-slide__btn">Saber Mais</button>
+                </div>
+
+                </div>
+                
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <div class="card">
+                    <div class="primeira__parte">
+                        <div class="descricao">
+                            <img src="img/3355389-ilustracaoial-de-sinal-de-classificacao-de-cinco-estrelas-gratis-vetor-removebg-preview (1).png" alt="">
+                            <h2 class="descricao__titulo-card">Depoimento</h2>
+                            <p class="descricao__texto">Me chamo juninho e amei em ter conhecido a naturalys, pois foi ai que tive varios resultados. E hoje me sinto super otimo</p>
+                        </div>
+    
+                        <img src="assets/1674419758761.jpg" alt="" class="imagem__cliente">
+                    </div>
+    
+                    <div class="segunda__parte">
+                        <a href="#">Conhecer Loja</a>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="influcier">
+                <h3 class="influcier__titulo">Deixe a sua experiencia com a Naturalys aqui</h3>
+                <p class="influcier__texto">Apareça em nossos depoimentos</p>
+                <a href="#">Conte aqui</a>
+            </div>
+
+        </section>
+    </main>
+    <footer class="rodape"></footer>
+    
+    <script src="main.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 15,
+            slidesPerView: 2.2,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        });
+    </script>
+</body>
+</html>

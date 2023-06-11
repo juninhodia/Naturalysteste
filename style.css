@@ -1,0 +1,41 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/topicos.css);
+@import url(styles/rodape.css);
+@import url(styles/pgsecundaria.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-body:#ebecee;
+    --cor-da-letra-azul-degrad:linear-gradient(97.54deg, #00521b 35.49%, #4b8932 165.37%);
+
+    --font-principal:'Poppins', sans-serif;
+
+    --texto-primario:hsl(210, 11%, 15%);
+    --texto-secundario:hsl(210, 9%, 31%, 1);
+    --texto-terceario:hsl(0, 0%, 47%);
+
+    --cor-principal:#7AAE24;
+    --cor-secundario:#ffffff;
+
+}
+
+body {
+    background-color: var(--background-body);
+    font-family:var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin-top: 70px;
+}
